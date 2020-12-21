@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [测试套件]" allow-return-values="true">
+  <listeners>
+    <listener class-name="com.qa.util.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test name="测试模块(failed)">
+    <classes>
+      <class name="com.qa.test.PostApiTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="getServerTest"/>
+        </methods>
+      </class> <!-- com.qa.test.PostApiTest -->
+    </classes>
+  </test> <!-- 测试模块(failed) -->
+</suite> <!-- Failed suite [测试套件] -->

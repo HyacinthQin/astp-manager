@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="astp接口测试" allow-return-values="true">
+    <test name="服务器列表测试" >
+        <classes>
+            <!-- 需要运行的测试类 -->
+            <class name="com.qa.test.PostApiTest"/>
+            	 
+        </classes>
+    </test>
+      <test name="用户中心模块测试" >
+        <classes>
+            <!-- 需要运行的测试类 -->
+            <class name="com.qa.test.OrganizeTest"/>
+            	 
+        </classes>
+    </test>
+    <listeners>
+        <!-- 添加ExtentRport监听 -->
+        <listener class-name="com.qa.util.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>
